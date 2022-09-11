@@ -1,0 +1,88 @@
+.checkbox{
+  visibility: hidden;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+}
+label{
+  padding: 17px 12px 19px 15px;
+  color:#fff;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+display: block;
+z-index: 1;
+position: relative;
+width: 200px;
+
+}
+.btn{
+padding: 17px 12px 19px 15px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+border: 3px solid #37AEE2;
+position: relative;
+right: -220px;
+width: 223px;
+height: 61px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn:hover{
+  padding: 17px 12px 19px 15px;
+  color:#37AEE2;
+  background:rgb(0, 0, 0);
+ border-radius: 5px;
+ border: 3px solid #37AEE2;
+
+}
+.madal_box{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.box{
+  position: relative;
+  display: none;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  z-index: 1;
+
+}
+.checkbox:checked ~ .box{
+display: block;
+}
+.modal_p{
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+color: #295093;
+width: 678px;
+height: 62px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+margin-top: 30px;
+}
+.tgi{
+  margin-right: 10px;
+}
+.wrapper{
+  background-color: #fff;
+  width: 680px;
+  height: 200px;
+  border-radius: 6px;
+  
+}
